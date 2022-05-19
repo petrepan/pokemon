@@ -10,7 +10,7 @@ const Home: FC = () => {
   return (
     <div className='mx-auto container py-3'>
       <Header />
-      <div className='grid grid-cols-3 gap-4 mt-4'>
+      <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-4'>
         {
           pokemon?.map((data: any, i) => (
             <div className="border flex flex-col" key={i + 1}>
